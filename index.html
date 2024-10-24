@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Página web Samuel y  Kevin</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+
+    <div class="menu-hamburguesa" id="menu-hamburguesa">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <nav class="nav-menu-hamburguesa" id="nav-menu-hamburguesa">
+            <a href="#inicio">Inicio 🏠</a>
+            <a href="#about">Acerca de 📄</a>
+            <a href="#catalogo">Catálogo 📂 </a>
+            <a href="#AR">Realidad Aumentada 🌐</a>
+            <a href="#clientes">Clientes 💼 </a>
+            <a href="#servicios">Servicios 🔧</a>
+            <a href="#contacto">Contacto 📞</a>
+
+    </nav>
+
+        <nav>
+            <a href="#inicio">Inicio </a>
+            <a href="#about">Acerca de</a>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#AR">Realidad Aumentada</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+        <section class="textos-header" id="inicio">
+            <h1>Consigue lo mejor en videojuegos</h1>
+            <h2>En nuestra página web</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros" id="about">
+            <h2 class="titulo">¿Quiénes somos?</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/Imagen2.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Misión</h3>
+                    <p>Nuestra misión es ofrecer a nuestros clientes una experiencia 
+			excepcional en el mundo del entretenimiento digital, proporcionando una amplia variedad 
+			de consolas, videojuegos y accesorios de alta calidad, fomentando así su pasión por los videojuegos.
+		</p>
+                    <h3><span>2</span>Visión</h3>
+                    <p>Nuestra visión es convertirnos en la empresa líder en la venta
+ 			de consolas y videojuegos en el mercado local, destacándonos por 
+			nuestro compromiso con la calidad, innovación y servicio al cliente.
+		</p>
+                </div>
+            </div>
+        </section>
+        <section class="catálogo">
+            <div class="contenedor">
+                <h2 class="titulo" id="catalogo">Catálogo</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>PS5</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>XBOX SERIES X</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>XBOX SERIES S</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgn.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nintendo Switch</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Mandos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Auriculares</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Más periféricos</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Juegos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<h2 class="titulo" id="AR">Catálogo en realidad aumentada</h2>
+    <div class="catalogoar">
+        <div class="item">
+            <model-viewer src="https://cdn.glitch.global/01afc9f3-084e-4962-9f64-7aeb2c88fe9e/ps5.glb?v=1729738847540" alt="PS5" camera-controls auto-rotate ar ar-modes="scene-viewer quick-look"></model-viewer>
+        </div>
+        <div class="item">
+            <model-viewer src="https://cdn.glitch.global/01afc9f3-084e-4962-9f64-7aeb2c88fe9e/xbox_series_x_free_3d_model.glb?v=1729738581635" alt="XBOX X" camera-controls auto-rotate ar ar-modes="scene-viewer quick-look"></model-viewer>
+        </div>
+        <div class="item">
+            <model-viewer src="https://cdn.glitch.global/01afc9f3-084e-4962-9f64-7aeb2c88fe9e/xbox_series_s.glb?v=1729739070185" alt="XBOX S" camera-controls auto-rotate ar ar-modes="scene-viewer quick-look"></model-viewer>
+        </div>
+        <div class="item">
+            <model-viewer src="https://cdn.glitch.global/01afc9f3-084e-4962-9f64-7aeb2c88fe9e/nintendo_switch%20(1).glb?v=1729738451819" alt="NINTENDO SWITCH" camera-controls auto-rotate ar ar-modes="scene-viewer quick-look"></model-viewer>
+        </div>
+    </div>
+
+        </section>
+
+        <section class="clientes contenedor" id="clientes">
+            <h2 class="titulo">¿Qué dicen nuestros clientes?</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/face1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Juan</h4>
+                        <p>"Los precios son los más económicos que encontrarás en el mercado, además, brindan un buen servicio"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/face2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Sofía</h4>
+                        <p>"La atención al cliente es rápida, y los precios súper accesibles"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services" id="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/tecnico.jpg" alt="">
+                        <h3>Servicio técnico</h3>
+                        <p>Servicio técnico y mantenimiento a consolas y equipos de juego.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/venta.jpg" alt="">
+                        <h3>Compra y venta de consolas</h3>
+                        <p>Compramos y vendemos consolas usadas y nuevas.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/pass.jpg" alt="">
+                        <h3>Suscripción a servicios</h3>
+                        <p>Suscríbete a XBOX Gamepass y PlayStation Plus con nosotros. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer" id="contacto">
+            <div class="content-foo">
+                <h4>Teléfono</h4>
+                <p>8895721</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>emailempresa@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Ubicación</h4>
+                <p>Santa Cruz de la Sierra Bolivia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Derechos reservados | Samuel Parada - Kevin Mirones</h2>
+    </footer>
+
+<script>
+        // Script para el menú hamburguesa
+        const menuHamburguesa = document.getElementById('menu-hamburguesa');
+        const navMenuHamburguesa = document.getElementById('nav-menu-hamburguesa');
+
+        menuHamburguesa.addEventListener('click', () => {
+            navMenuHamburguesa.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
